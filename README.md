@@ -1,4 +1,4 @@
-Maven - Spring 3 MVC Hello World
+Maven - Spring 3  
 ===============================
 Template for Spring 3 MVC + JSP view + XML configuration, using Maven build tool.
 
