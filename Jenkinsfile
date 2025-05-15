@@ -9,6 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
+                echo 'Checkout  branch'
                 git 'https://github.com/sreekanthmys29/spring3-mvc-maven-xml-hello-world.git'
             }
         }
