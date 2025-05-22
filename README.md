@@ -1,4 +1,4 @@
-Maven - Spring
+Maven - Spring MVC
 ===============================
 Template for Spring 3 MVC + JSP view + XML configuration, using Maven build tool.
 
