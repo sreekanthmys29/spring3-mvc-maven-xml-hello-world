@@ -5,9 +5,9 @@ Template for Spring 3 MVC + JSP view + XML configuration, using Maven build tool
 ###1. Technologies used
 * Maven  
 * Spring 
-* JSTL 1
-* Log
-* Boostrap 
+* JSTL 1 
+* Log 
+* Boostrap webhook
 
 ###2. To Run this project locally
 ```shell
