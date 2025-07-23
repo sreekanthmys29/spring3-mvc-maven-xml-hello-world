@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'mavenLocal'   // Name of your Maven installation in Jenkins
+        maven 'mavenlinux'   // Name of your Maven installation in Jenkins
        
     }
 
