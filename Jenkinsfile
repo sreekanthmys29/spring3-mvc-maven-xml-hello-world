@@ -45,7 +45,7 @@ pipeline{
 	       echo "Executing step sonarQube"
 		    script{
 			 
-		     sonar(${env.projectKey},${env.url},${env.login});
+		     sonar(env.projectKey,env.url,env.login);
 		 }
 	  }
    }
