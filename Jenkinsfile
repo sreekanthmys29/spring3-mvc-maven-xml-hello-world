@@ -19,12 +19,16 @@ pipeline{
  
   stages{
   
-   stage("checkout"){
-      steps{
-		 echo "Executing step checkout"
-	          git(branch: 'master', credentialsId: 'GitRepoCredentials', url: 'https://github.com/sreekanthmys29/spring3-mvc-maven-xml-hello-world.git)
-	  }
-   }
+ 
+    stage('Checkout') {
+            steps {
+                gitclone(
+                    branch: 'master',
+                    url: 'https://github.com/sreekanthmys29/spring3-mvc-maven-xml-hello-world.git',
+                    credentialsId: 'GitRepoCredentials'
+                )
+            }
+		      
    stage("Build"){
 	steps{
 	       echo "Executing step Checkout"
