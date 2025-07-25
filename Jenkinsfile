@@ -1,6 +1,4 @@
-#projectKey = spring3-mvc-maven-xml-hello-world
-#url http://104.197.209.222:9000
-#login=sqp_f03ac30b765d3bfa7dcef1122cbc388809d6bb00
+
 
 @Library('sharedMulLib') _
 pipeline{
