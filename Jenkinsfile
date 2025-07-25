@@ -22,7 +22,7 @@ pipeline{
  
     stage('Checkout') {
             steps {
-                gitcheckout(
+                git(
                     branch: 'master',
                     url: 'https://github.com/sreekanthmys29/spring3-mvc-maven-xml-hello-world.git',
                     credentialsId: 'GitRepoCredentials'
