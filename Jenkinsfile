@@ -28,6 +28,7 @@ pipeline{
                     credentialsId: 'GitRepoCredentials'
                 )
             }
+    }
 		      
    stage("Build"){
 	steps{
