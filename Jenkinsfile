@@ -22,7 +22,7 @@ pipeline{
    stage("checkout"){
       steps{
 		 echo "Executing step checkout"
-	     timeout(time: 5, unit: 'SECONDS')
+	     
 		 script{
 			 def branch= 'master'
 			  def credentailsId= 'GitRepoCredentials'
