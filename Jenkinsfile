@@ -9,6 +9,7 @@ pipeline{
   maven 'mavenlinux'
   jdk   'JDK17'
   git   'Default'
+  sonar 'sonarlinux'
  }
 
  environment{
