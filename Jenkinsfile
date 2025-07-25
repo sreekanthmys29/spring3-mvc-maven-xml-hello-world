@@ -31,7 +31,41 @@ pipeline{
             }
     }
 		      
-   
+   stage("Build"){
+	steps{
+	       echo "Executing step Checkout"
+		    script{
+			 def goal= 'package'
+			 build(goal);
+			 }
+	  }
+   }
+   stage("sonarQube"){
+     steps{
+	       echo "Executing step sonarQube"
+		    script{
+			 
+		     sonar(${env.projectKey},${env.url},${env.login});
+		 }
+	  }
+   }
+   stage("Nexus"){
+	steps{
+	       echo "Executing step Nexus"
+		   
+	  }
+   }
+   stage("Tomcat"){
+	steps{
+	       echo "Executing step Tomcat"
+	  }
+   }
+  stage("Docker"){
+	steps{
+	       echo "Executing step Docker"
+	  }
+   }	  
+  }
   
  
   }
