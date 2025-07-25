@@ -7,7 +7,7 @@ Template for Spring 3 MVC + JSP view + XML configuration, using Maven build tool
 * Spring 3.2.13.RELEASE
 * JSTL 1.2
 * Logback 1.1.3
-* Boostrap 3
+* Boostrap 3 multi
 
 ###2. To Run this project locally
 ```shell
