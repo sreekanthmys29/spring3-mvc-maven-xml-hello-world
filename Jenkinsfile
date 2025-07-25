@@ -65,7 +65,7 @@ pipeline{
 	       echo "Executing step Docker"
 	  }
    }	  
-  }
+ 
   
  
   }
