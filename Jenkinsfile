@@ -25,7 +25,6 @@ pipeline{
 	     timeout(time: 5, unit: 'SECONDS')
 		 script{
 			 def branch= 'master'
-			 #def credentailsId= credentials(GitRepocredentials)
 			  def credentailsId= 'GitRepoCredentials'
 			 def url= 'https://github.com/sreekanthmys29/spring3-mvc-maven-xml-hello-world.git'
 		     git(branch,credentailsId,url);
